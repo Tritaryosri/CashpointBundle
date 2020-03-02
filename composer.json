@@ -13,13 +13,13 @@
 
     "require": {
         "php": "^7.1.3",
-        "dotit/cashpoint": "*"
+        "dotit/cashpoint-bundle": "^1.0"
 
     },
 
     "autoload": {
         "psr-4": {
-            "yosri\\bundle\\": ""
+            "dotit\\CashpointBundle\\": "CashpointBundle/"
         }
     }
 }
