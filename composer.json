@@ -12,11 +12,14 @@
     "minimum-stability": "dev",
 
     "require": {
-        "php": "^7.1.3"
+        "php": "^7.1.3",
+        "dotit/cashpoint": "*"
+
     },
+
     "autoload": {
         "psr-4": {
-            "Dotit\\CashpointBundle\\": "CashpointBundle/"
+            "yosri\\bundle\\": ""
         }
     }
 }
