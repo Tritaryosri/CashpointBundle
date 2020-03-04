@@ -10,16 +10,15 @@
         }
     ],
 
-
     "require": {
         "php": "^7.1.3",
         "dotit/cashpoint-bundle": "^1.0"
 
     },
-
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "dotit\\CashpointBundle\\": "CashpointBundle/"
+            "dotit\\CashpointBundle\\": "src/"
         }
     }
 }
